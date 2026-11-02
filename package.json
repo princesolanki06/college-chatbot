@@ -1,0 +1,16 @@
+
+{
+  "name": "webchatbot",
+  "version": "1.0.0",
+  "description": "College Help Chatbot powered by Gemini AI",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.31.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0"
+  }
+}
